@@ -15,38 +15,37 @@
     </head>
     <body>
         <div>
-            <div id = "top" style = "display:block; margin-bottom: 170px;">
-                <header class = "header-row-class" style = "margin-bottom: 2vw; z-index:50;">
-                    <div id = "poggers" style = "display: grid; grid-template-columns: auto auto; grid-template-rows: auto; align-items: center; background-color: blue; width: 100%; margin: 0;">
-                        <div class = "main-container-nav" style = "margin: 0; margin-left: 4vw;">
+            <div id = "top">
+                <header class = "header-row-class">
+                    <div id = "poggers">
+                        <div class = "main-container-nav">
                             <p class = "filler1"><a href = "#nexus-magic">Home</a></p>
                             <p class = "filler1"><a href = "#about-me">About Me</a></p>
                             <p class = "filler1"><a href = "#proyekto">Projects</a></p>
                             <p class = "filler1"><a href = "#portfolio">Languages</a></p>
                         </div>
-                        <div class = "row" style = "font-size: clamp(1vw, 100%, 2vw); display: inline-block; background-color: orange; margin: 0; margin-left: auto; margin-right: 0.5vw; padding-left: 0.25em; padding-right: 0.25em; align-items: center; justify-content: center;">
-                            <p id = "pogu" style = "margin: 0.1em;">Khrisist Averted</p>
+                        <div class = "row">
+                            <p id = "pogu">Khrisist Averted</p>
                         </div>
                     </div>
-                    <!--div elements here and a tags that goes to the respective pages-->
                 </header>
                 <section style = "height: 1.25em;"></section>
                 <main>
-                    <hr style = "clear: both; width: 100%; margin-top: 10px; margin-bottom: 10px; z-index: -100; overflow: hidden; position: relative;">
+                    <hr id = "lineStyle">
                     <section>
-                        <div id = "nexus-magic" class = "border: none;"></div>
-                        <div class = "spacer" style = "border: none;"></div>
-                        <div class = "left-margin-here center-here" style = "margin-top: 2vw;">
+                        <div id = "nexus-magic" class = "no-border"></div>
+                        <div class = "spacer no-border"></div>
+                        <div class = "left-margin-here center-here">
                             <p>The benigning is pretty nice, no stress nor imposter syndrome. Just me and my sillyness >:D <br>(Disclaimer: This website is not for professional purposes and was just made to revisit my html, css, and javascript basics, this will hopefully go there since this will be updated every once in a while as my skills progress)</p>
                         </div>
-                        <div class = "left-margin-here center-here" style = "display: grid; grid-template-columns: 10px auto 10px; margin-top: 2vw;">
-                            <div id = "about-me" style = "margin-right: auto; grid-row-start: 1; grid-row-end:2; grid-column-start: 1; grid-column-end: 4; justify-content: center; align-items: center; margin-right: auto; margin-left: auto; margin-top: 0.5vw;">
+                        <div class = "left-margin-here center-here display-one">
+                            <div id = "about-me">
                                 <h1>About Me</h1>
                             </div>
-                            <div style = "grid-column-start: 2; grid-column-end: 3; grid-row-start: 2; grid-row-end:3; display: grid; grid-template-columns: auto auto auto auto; grid-template-rows: auto auto auto auto; justify-content: center;  align-items: center; padding-top: 0.25em; padding-bottom: 0.25em; width: clamp(75%, auto, 100%); height: clamp(75%, auto, 100%); margin-top: 0.5vw; margin-bottom: 0.5vw;">
-                                <p style = "margin: 0; grid-row-start: 2; grid-row-end: 5; grid-column-start: 3; grid-column-end: 4; width: 75%; align-items: center; margin-left: auto; margin-right: auto;">Random guy on the net 😎</p>
-                                <div style = "grid-column-start: 1; grid-column-end: 3; grid-row-start: 2; grid-row-end: 5; margin: 0; padding: 0; ">
-                                    <img id = "rah" class = "smolsize" src = "images/pogu1.png" style = "vertical-align: middle;"onmouseover = "abnormal(this)" onmouseout = "normal(this)" >
+                            <div id = "div-one">
+                                <p id = "p-one">Random guy on the net 😎</p>
+                                <div id = "div-two">
+                                    <img id = "rah" class = "smolsize" src = "images/pogu1.png" onmouseover = "abnormal(this)" onmouseout = "normal(this)" >
                                 </div>
                             </div>
                         </div>
@@ -117,18 +116,18 @@
                     <section  class = "left-margin-here">
                         <div id = "proyekto">
                             <p>Things I do:</p>
-                            <div style = "display: grid; grid-template-columns: auto auto auto; grid-template-rows: auto auto auto auto auto;">
-                                <p style = "grid-column-start: 1; grid-column-end: 5; grid-row-start: 1; grid-row-end: 2;">some stuff</p>
-                                <img class = "stuff smolsize" style = "grid-column-start: 2; grid-column-end:3; grid-row-start: 2; grid-row-end: 3;" src = "images/Stupidity.jpg">
-                                <img class = "stuff smolsize" style = "grid-column-start: 2; grid-column-end:3; grid-row-start: 3; grid-row-end: 4;" src = "images/bootleg_gojo.PNG">
-                                <img class = "stuff smolsize" style = "grid-column-start: 2; grid-column-end:3; grid-row-start: 4; grid-row-end: 5;" src = "images/turtel.jpg">
-                                <video controls src = "video/1938a160-1474-4e6d-a2c5-2c570678ab70.mp4"class = "stuff smolsize" style = "grid-column-start: 2; grid-column-end: 3; grid-row-start: 5; grid-row-end: 6; z-index: 1;"></video>
+                            <div id =  "things-i-do">
+                                <p style = "grid-column: 1/5; grid-row: 1/2;">some stuff</p>
+                                <img class = "stuff smolsize grid-one" style = "grid-row: 2/3;" src = "images/Stupidity.jpg">
+                                <img class = "stuff smolsize grid-one" style = "grid-row: 3/4;" src = "images/bootleg_gojo.PNG">
+                                <img class = "stuff smolsize grid-one" style = "grid-row: 4/5;" src = "images/turtel.jpg">
+                                <video controls src = "video/1938a160-1474-4e6d-a2c5-2c570678ab70.mp4" class = "stuff smolsize grid-one" style = "grid-row: 5/6; z-index: 1;"></video>
                             </div>
                         </div>
                         <div>
-                            <div style = "margin-right: auto;" id = "portfolio">
-                                <p style = "display: flex; align-items: center; margin-right: auto; margin-left: auto;">more portfolio here: <a style = "background-color: red;" href = "https://drive.google.com/drive/folders/1n-P98qgqFsIAbytWYDrbyPMxkrnGoomQ?usp=drive_link" color = "red">drive link (click me)</a></p>
-                                <div style = "display: flex; justify-content: center; align-items: center; margin-right: auto; margin-left: auto;">
+                            <div id = "portfolio">
+                                <p class = "portfolio-setting">more portfolio here: <a style = "background-color: red;" href = "https://drive.google.com/drive/folders/1n-P98qgqFsIAbytWYDrbyPMxkrnGoomQ?usp=drive_link" color = "red">drive link (click me)</a></p>
+                                <div class = "portfolio-setting">
                                     <p>To be worked on</p>
                                     <p>I speak english and tagalog</p>
                                     <p>I am currently learning chinese 💪</p>
@@ -140,16 +139,13 @@
                     <!--div elements here as well but paragraphs, i'd love to have a sidebar-->
                 </main>
             </div>
-            <!-- <div id = "bottom" class = "spacer" style = "position: relative; display: block; bottom: 0; height: 40px; width: 100%;"> -->
                 <footer>
-                    <!--contact details-->
                         <div style = "left: 0; bottom: 0; position: absolute; width: 100%;">
                             <div style = "display: flex; justify-content: center;">
                                 <p style = "margin: 0;">you can find me here: <a id = "nice" href = "https://www.facebook.com/khristian.tan.18">Khris Tian Tan <img src = "images/facebook.png" style = "margin-top: auto; margin-bottom: auto; width: 1.5vw;"></a></p>
                             </div>
                         </div>
                 </footer>
-            <!-- </div> -->
         </div>
         <script src = "scriptlol.js">
         </script>
