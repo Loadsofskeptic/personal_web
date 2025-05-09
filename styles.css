@@ -3,14 +3,14 @@ div, p
     font-family: "Comic Sans MS";
     border-width: 0.125em;
     border-style: solid;
-    border-radius:5px;
+    border-radius:1px;
     /* font-size: clamp(1vw, 100%, 2vw); */
 }
 
 
 p > a
 {
-    font-style: normal; color: white; text-decoration: none;
+    font-style: normal; color: rgb(0,0,0); text-decoration: none;
 }
 
 li
@@ -30,7 +30,8 @@ a:hover {
 
 p > a:hover
 {
-    color: black;
+    color: rgb(120,120,120);
+    transition: color 0.10s;
 }
 
 /* classes */
@@ -113,10 +114,10 @@ p > a:hover
     padding-left: 0.25em;
     padding-right: 0.25em;
     margin: 0;
-    color: rgb(254,254,254);
+    /* color: rgb(0,0,0); */
     border-color: black;
     font-size: clamp(1vw, 100%, 2vw);
-    background-color: red;
+    background-color: rgb(254,254,254);
 }
 
 
@@ -239,7 +240,7 @@ p > a:hover
 
 #about-me
 {
-    style = margin-right: auto; grid-row-start: 1; grid-row-end:2; grid-column-start: 1; grid-column-end: 4; justify-content: center; align-items: center; margin-right: auto; margin-left: auto; margin-top: 0.5vw;
+    margin-right: auto; grid-row-start: 1; grid-row-end:2; grid-column-start: 1; grid-column-end: 4; justify-content: center; align-items: center; margin-right: auto; margin-left: auto; margin-top: 0.5vw;
 }
 
 #rah
@@ -258,6 +259,7 @@ p > a:hover
     display: flex; justify-content: center; align-items: center; margin-right: auto; margin-left: auto;
 }
 /* for mobile support */
+
 @media screen and (max-width: 400px)
 {
     .filler1, p, div, li{
